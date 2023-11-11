@@ -136,7 +136,7 @@ window.addEventListener("load", function () {
     handleParticles(context, deltaTime) {
       this.whale.draw(context);
       this.whale.update(deltaTime);
-      this.connectParticles(context);
+      // this.connectParticles(context);
       this.particles.forEach((particle) => {
         particle.draw(context);
         particle.update();
